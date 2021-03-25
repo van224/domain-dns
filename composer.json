@@ -1,0 +1,22 @@
+{
+  "name": "kayw-geek/domain-dns",
+  "description": "The library can resolve the best DNS for the specified domain name",
+  "keywords": ["php","dns","domain","resolution","extension"],
+  "type": "php-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kayw-geek",
+      "email": "weikaiii@sina.cn"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "KaywGeek\\Dns\\": "./src/"
+    }
+  }
+}
